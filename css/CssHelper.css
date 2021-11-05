@@ -1,0 +1,5 @@
+img.absolute {
+    position: absolute;
+    z-index: 0;
+    margin: 0px;
+  }

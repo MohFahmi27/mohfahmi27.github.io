@@ -4935,8 +4935,8 @@ fieldset[disabled] .select select:hover {
 }
 
 .card {
-  background-color: white;
-  border-radius: 0.25rem;
+  background-color: #0a0a0a;
+  border-radius: 0.8rem;
   -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
           box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: white;
@@ -4945,13 +4945,13 @@ fieldset[disabled] .select select:hover {
 }
 
 .card-header:first-child, .card-content:first-child, .card-footer:first-child {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
 }
 
 .card-header:last-child, .card-content:last-child, .card-footer:last-child {
-  border-bottom-left-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
 }
 
 .card-header {
@@ -5017,18 +5017,18 @@ fieldset[disabled] .select select:hover {
 }
 
 .card-image:first-child img {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
 }
 
 .card-image:last-child img {
-  border-bottom-left-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
 }
 
 .card-content {
   background-color: transparent;
-  padding: 1.5rem;
+  padding: 1.7rem;
 }
 
 .card-footer {

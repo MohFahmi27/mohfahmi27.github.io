@@ -16,6 +16,9 @@ $navbar-background-color: transparent;
 $navbar-item-hover-color: #162df7;
 $navbar-item-hover-background-color: hsl(0, 0%, 5%);
 $text: white;
+$card-background-color: hsl(0, 0%, 4%);
+$card-radius: 0.80rem;
+$card-content-padding: 1.7rem;
 
 @import "../css/bulma/sass/utilities/_all.sass";
 @import "../css/bulma/sass/base/_all.sass";
@@ -25,4 +28,3 @@ $text: white;
 @import "../css/bulma/sass/grid/_all.sass";
 @import "../css/bulma/sass/helpers/_all.sass";
 @import "../css/bulma/sass/layout/_all.sass";
-

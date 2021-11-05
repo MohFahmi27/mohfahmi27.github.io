@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/CustomStyle.css">
-    <title>Moh.Fahmi | Personal Website</title>
+    <link rel="stylesheet" href="css/CssHelper.css">
+    <link rel="shortcut icon" href="img/shortcut-icon.png" type="image/x-icon">
+    <title>Mohammad Fahmi</title>
 </head>
 <body>
+    <img class="absolute" src="img/banner.svg" alt="">
     <!-- NAVBAR SECTION BEGIN -->
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
@@ -27,9 +30,9 @@
             <!-- SECTION RIGHT NAVBAR -->
                 <div id="navbar-menu" class="navbar-menu">
                     <div class="navbar-end">
-                        <a href="#home" class="navbar-item">Education</a>
-                        <a href="#product" class="navbar-item">Experience</a>
-                        <a href="#gallery" class="navbar-item">Certificate</a>
+                        <a href="#education" class="navbar-item">Education</a>
+                        <a href="#certificate" class="navbar-item">Certificate</a>
+                        <a href="#portfolio" class="navbar-item">Portfolio</a>
                         <a href="#contact" class="navbar-item">Contact</a>
                         <div class="navbar-item"></div>
                     </div>
@@ -39,26 +42,30 @@
     <!-- NAVBAR SECTION OVER -->
 
     <!-- INTRODUCTION SECTION -->
-        <div class="section">
+        <div class="section mb-6">
             <div class="container">
                 <br><br>
                 <div class="columns is-vcentered is-centered">
                     <!-- SECTION LEFT -->
                     <div class="column is-7">
-                        <div class="columns is-mobile is-vcentered is-gapless">
-                            <div class="column is-1">
-                                <img src="img/icon-star-fallen.png" alt="icon-star-fallen" height="400px" width="45px">
+                        <div class="columns is-mobile is-vcentered is-centered is-gapless">
+                            <div class="column is-1 mr-3">
+                                <img src="img/icon-star-fallen.png" width="60px" alt="icon-star-fallen" >
                             </div>
                             <div class="column">
-                                <span class="title is-1 has-text-white">Mohammad Fahmi</span><br>
-                                <span class="subtitle is-5 is-family-sans-serif has-text-grey-lighter">Nothing more than just college student</span><br>
+                                <p class="subtitle is-6 has-text-white mb-3">Hello!</p>
+                                <span class="title is-1 has-text-white">I'm Mohammad Fahmi</span><br>
+                                <span class="subtitle is-3 is-family-sans-serif has-text-grey-lighter">College Student</span><br>
+                                <p class="mt-4">
+                                    My Dream is to make something that really could help a lot of people using my skill as a programmer.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <!-- SECTION RIGHT -->
                     <div class="column">
                         <center>
-                            <img src="img/Picture1.png" alt="" width="350px" >
+                            <img class="ml-6" src="img/Picture1.png" alt="" width="300px" >
                         </center>
                     </div>
                 </div>
@@ -66,32 +73,111 @@
         </div>
     <!-- INTRODUCTION SECTION OVER -->
     <!-- EDUCATION SECTION -->
-    <div class="columns is-gapless is-multiline">
-        <!-- WAVE BEGIN -->
-        <div class="column is-full">
-            <div class="hero">
-                <img src="img/wave-start.svg" width="100%" alt="">
+        <div id="education">
+            <div class="columns is-gapless is-multiline">
+                <!-- EDUCATION CARD -->
+                <div class="column is-full">
+                    <div class="section mt-6">
+                        <div class="hero">
+                            <h1 class="title is-4 has-text-white ml-6">
+                                EDUCATION
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD EDUCATION -->
+                <div class="column is-full">
+                    <div class="container">
+                        <div class="columns is-centered is-multiline">
+                            <div class="column is-four-fifths">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <div class="columns is-vcentered is-centered">
+                                                <div class="column is-2">
+                                                    <center>
+                                                        <img src="img/Lambang_ITK.png" class="image is-128x128" alt="">
+                                                    </center>
+                                                </div>
+                                                <div class="column">
+                                                    <h1 class="title is-4 has-text-white">KALIMANTAN INSTITUTE OF TECHNOLOGY</h1>
+                                                    <p class="subtitle is-5 has-text-grey-lighter">Bachelor's Degree, Informatics</p>
+                                                    <p class="is-size-6">
+                                                        Kalimantan Institute of Technology is a technological-focused public university based in Balikpapan, East Kalimantan.
+                                                    </p>
+                                                </div>
+                                                <div class="column is-2">
+                                                    <p class="title is-5 has-text-white">[ 2018 - NOW ]</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- EDUCATION CARD -->
-        <div class="column is-full">
-            <div class="hero is-primary has-text-centered">
-                <h1 class="title is-2 has-white-text">
-                    EDUCATION
-                </h1>
-            </div>
-        </div>
-        <!-- WAVE END -->
-        <div class="column is-full">
-            <div class="hero">
-                <img src="img/wave-end.svg" height="20px" alt="">
-            </div>
-        </div>
-    </div>
+        </div>    
     <!-- EDUCATION SECTION OVER -->
-
-    <div class="section">
+    <!-- CERTIFICATE SECTION -->
+    <div class="columns is-gapless is-multiline">
+        <div class="column is-full">
+            <div class="section">
+                <div class="hero">
+                    <h1 class="title is-4 has-text-white ml-6">
+                        CERTIFICATE
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <!-- CERTIFICATE LIST -->
+        <div class="section">
+            <div class="columns is-multiline is-vcentered is-centered">
+                <div class="column is-two-fifths">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="img/certificate/DSC-CERTIFICATE.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-content">
+                              <p class="title is-4 has-text-white">DSC Core Team</p>
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Google Developer Student Club Core Team Member at Institut Teknologi Kalimantan for 2020 - 2021 academic year.
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column is-two-fifths">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="img/certificate/BANGKIT-CERTIFICATE.jpg" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-content">
+                              <p class="title is-4 has-text-white">Bangkit</p>
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Graduate for Google-led academy designed high-caliber technical talents for world-class Indonesian technology
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
         
-    </div>  
+    </div>
+    <!-- CERTIFICATE SECTION OVER -->
 </body>
 </html>
