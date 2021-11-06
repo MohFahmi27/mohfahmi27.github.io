@@ -1,5 +1,16 @@
 img.absolute {
     position: absolute;
-    z-index: 0;
+    z-index: -1;
     margin: 0px;
+  }
+
+img.rounded-corners {
+    border-radius: 0.80rem;
+}
+
+hr {
+    background-color: #0a1aa8;
+    height: 5px;
+    width: 100px;
+    border-radius: 2px;
   }

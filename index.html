@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/CustomStyle.css">
     <link rel="stylesheet" href="css/CssHelper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="img/shortcut-icon.png" type="image/x-icon">
     <title>Mohammad Fahmi</title>
 </head>
 <body>
-    <img class="absolute" src="img/banner.svg" alt="">
+    <img class="absolute" src="img/banner.svg" style="height: 100%;" alt="">
     <!-- NAVBAR SECTION BEGIN -->
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-                <div class="navbar-item"></div>
                 <div class="navbar-item">
-                    <h1 class="title is-5 has-text-white">
+                    <h1 class="title is-5 has-text-white ml-5">
                         Moh. Fahmi
                     </h1>
                 </div>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -33,8 +33,7 @@
                         <a href="#education" class="navbar-item">Education</a>
                         <a href="#certificate" class="navbar-item">Certificate</a>
                         <a href="#portfolio" class="navbar-item">Portfolio</a>
-                        <a href="#contact" class="navbar-item">Contact</a>
-                        <div class="navbar-item"></div>
+                        <a href="#contact" class="navbar-item mr-4">Contact</a>
                     </div>
                 </div>
             <!-- SECTION RIGHT NAVBAR OVER -->
@@ -81,12 +80,13 @@
                         <div class="hero">
                             <h1 class="title is-4 has-text-white ml-6">
                                 EDUCATION
+                                <hr>
                             </h1>
                         </div>
                     </div>
                 </div>
                 <!-- CARD EDUCATION -->
-                <div class="column is-full">
+                <div class="column is-full ml-5 mr-5">
                     <div class="container">
                         <div class="columns is-centered is-multiline">
                             <div class="column is-four-fifths">
@@ -96,7 +96,7 @@
                                             <div class="columns is-vcentered is-centered">
                                                 <div class="column is-2">
                                                     <center>
-                                                        <img src="img/Lambang_ITK.png" class="image is-128x128" alt="">
+                                                        <img src="img/Lambang_ITK.png" alt="">
                                                     </center>
                                                 </div>
                                                 <div class="column">
@@ -121,63 +121,191 @@
         </div>    
     <!-- EDUCATION SECTION OVER -->
     <!-- CERTIFICATE SECTION -->
-    <div class="columns is-gapless is-multiline">
-        <div class="column is-full">
-            <div class="section">
-                <div class="hero">
-                    <h1 class="title is-4 has-text-white ml-6">
-                        CERTIFICATE
-                    </h1>
+    <div id="certificate">
+        <div class="columns is-gapless is-multiline">
+            <div class="column is-full">
+                <div class="section">
+                    <div class="hero">
+                        <h1 class="title is-4 has-text-white ml-6">
+                            CERTIFICATE
+                            <hr>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <!-- CERTIFICATE LIST -->
+            <div class="column is-full">
+                <div class="columns is-multiline is-vcentered is-centered ml-5 mr-5">
+                    <div class="column is-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="img/certificate/DSC-CERTIFICATE.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4 has-text-white">DSC Core Team</p>
+                                </div>
+                                </div>
+                            
+                                <div class="content">
+                                Google Developer Student Club Core Team Member at Institut Teknologi Kalimantan for 2020 - 2021 academic year.
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="img/certificate/BANGKIT-CERTIFICATE.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4 has-text-white">Bangkit</p>
+                                </div>
+                                </div>
+                            
+                                <div class="content">
+                                Graduate for Google-led academy designed high-caliber technical talents for world-class Indonesian technology.
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="img/certificate/MADE-CERTIFICATE.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4 has-text-white">MADE</p>
+                                </div>
+                                </div>
+                            
+                                <div class="content">
+                                Online course for Android Developer that developed by Dicoding using google standard on android development.
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <a href="https://www.dicoding.com/academies/317"><img src="img/certificate/GIT-CERTIFICATE.jpg" alt="Placeholder image"></a>
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4 has-text-white">GITHUB</p>
+                                </div>
+                                </div>
+                            
+                                <div class="content">
+                                Online course that developed by Dicoding which help beginner to understand how to manage code using Github.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- CERTIFICATE LIST -->
-        <div class="section">
-            <div class="columns is-multiline is-vcentered is-centered">
-                <div class="column is-two-fifths">
-                    <div class="card">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="img/certificate/DSC-CERTIFICATE.png" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-content">
-                              <p class="title is-4 has-text-white">DSC Core Team</p>
-                            </div>
-                          </div>
-                      
-                          <div class="content">
-                            Google Developer Student Club Core Team Member at Institut Teknologi Kalimantan for 2020 - 2021 academic year.
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                <div class="column is-two-fifths">
-                    <div class="card">
-                        <div class="card-image">
-                          <figure class="image is-4by3">
-                            <img src="img/certificate/BANGKIT-CERTIFICATE.jpg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-content">
-                              <p class="title is-4 has-text-white">Bangkit</p>
-                            </div>
-                          </div>
-                      
-                          <div class="content">
-                            Graduate for Google-led academy designed high-caliber technical talents for world-class Indonesian technology
-                          </div>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-        
     </div>
     <!-- CERTIFICATE SECTION OVER -->
+
+    <!-- PORTFOLIO SECTION -->
+        <div id="portfolio">
+            <div class="section">
+                <div class="columns is-multiline is-gapless">
+                    <div class="column is-full">
+                        <div class="hero">
+                            <h1 class="title is-4 has-text-white ml-6">
+                                PORTFOLIO
+                                <hr>
+                            </h1>
+                        </div>
+                    </div>
+
+                <div class="column is-full has-text-centered">
+                    <div class="tile is-ancestor">
+                        <div class="tile is-parent is-vertical is-7">
+                            <div class="tile is-child">
+                                <img src="img/portfolio-1.jpg" class="rounded-corners" alt=""><br>
+                                <img src="img/portfolio-3.png" class="rounded-corners mt-4" alt="">
+                            </div>
+                        </div>
+                        <div class="tile is-parent is-vertical">
+                            <div class="tile is-parent">
+                                <div class="tile is-child">
+                                    <img src="img/portfolio-2.jpg" class="rounded-corners mr-3" alt="">
+                                </div>
+                                <div class="tile is-child">
+                                    <img src="img/portfolio-5.jpg" class="rounded-corners ml-3" alt="">
+                                </div>
+                                <div class="tile is-child">
+                                    <img src="img/portfolio-4.jpg" class="rounded-corners ml-5" alt="">
+                                </div>
+                            </div>
+                            <div class="tile is-parent">
+                                <div class="tile is-child">
+                                    <img src="img/portfolio-6.jpg" class="rounded-corners" alt="">
+                                </div>
+                                <div class="tile is-child">
+                                    <img src="img/portfolio-7.jpg" class="rounded-corners ml-3" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    <!-- PORTFOLIO SECTION OVER -->
+
+    <!-- CONTACT SECTION -->
+        <div id="contact">
+            <!-- <img src="img/banner-2.svg" style="right: -1px;" class="absolute" alt=""> -->
+            <div class="section">
+                <div class="columns is-multiline is-gapless">
+                    <div class="column is-full">
+                        <div class="hero">
+                            <h1 class="title is-4 has-text-white ml-6">
+                                CONTACT
+                                <hr>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="column is-full">
+                        <div class="hero has-text-centered">
+                            <div class="level">
+                                <div class="level-item">
+                                    <a href="mailto:mohammadfahmi417@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=1155ba&labelColor=1155ba"></a>
+                                </div>
+                                <div class="level-item">
+                                    <a href="https://www.linkedin.com/in/mohammad-fahmi-57593a195/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&color=1155ba&labelColor=1155ba"></a>
+                                </div>
+                                <div class="level-item">
+                                    <a href="https://www.instagram.com/mohfahmi27/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white&color=1155ba&labelColor=1155ba"/></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    <!-- CONTACT SECTION OVER -->
+
+    <img src="img/wave-start.svg" style="width: 100%;" alt="">
+    <script src="js/main.js"></script>
 </body>
 </html>
