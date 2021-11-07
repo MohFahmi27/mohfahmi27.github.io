@@ -2,7 +2,7 @@ img.absolute {
     position: absolute;
     z-index: -1;
     margin: 0px;
-  }
+}
 
 img.rounded-corners {
     border-radius: 0.80rem;
@@ -13,4 +13,23 @@ hr {
     height: 5px;
     width: 100px;
     border-radius: 2px;
-  }
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #162df7;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1526c5;
+}
