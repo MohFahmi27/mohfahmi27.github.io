@@ -1,3 +1,7 @@
+body {
+  background-image: url('/img/background.svg');
+}
+
 img.absolute {
     position: absolute;
     z-index: -1;
@@ -16,7 +20,7 @@ hr {
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 18px;
 }
 
 ::-webkit-scrollbar-track {
