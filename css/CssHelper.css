@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url('../img/background.svg');
 }
@@ -19,6 +23,12 @@ hr {
     border-radius: 2px;
 }
 
+.navbar.is-fixed-top.scroll {
+  transition: background-color 0.4s linear;
+  background-color: hsla(0, 0%, 4%, 0.445);
+  border-bottom-left-radius: 0.80rem;
+}
+
 ::-webkit-scrollbar {
   width: 18px;
 }
@@ -28,12 +38,12 @@ hr {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #162df7;
-  border-radius: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
   border: 6px solid transparent;
   background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #1526c5;
+  background-color: #000B76;
 }
